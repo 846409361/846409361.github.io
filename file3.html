@@ -1,0 +1,61 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+	<head>
+		<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+		<title> 50岁的老妈</title>
+		<script type="text/javascript" src="./js/jquery-3.3.1.min.js"></script>
+		<script type="text/javascript" src="./js/snowfall.jquery.js"></script>
+		<style>
+			html,body{padding:0;margin:0;}
+			.darkBg{background:#111111;}
+			*{margin:0;padding:0;}
+			
+			.snowfall-flakes{animation:sakura 1s linear 0s infinite;}
+			@keyframes sakura{
+				0% {transform:rotate3d(0, 0, 0, 0deg);}
+				25%{transform:rotate3d(1, 1, 0, 60deg);}
+				50%{transform:rotate3d(1, 1, 0, 0deg);}
+				75%{transform:rotate3d(1, 0, 0, 60deg);}
+				100% {transform:rotate3d(1, 0, 0, 0deg);}
+			}
+			#waibu {width:1440px; margin:0 auto;}
+			#wushisuiyi { width:540px; height:780px;  margin-top:50px; float:left; box-shadow:5px 5px 5px #444;}
+			#wushisuisi { width:880px; height:780px; margin-top:50px; float:right; box-shadow:5px 5px 5px #444;}
+		</style>
+		<link rel="stylesheet" href="css/mystyle.css">
+	</head>
+	<body class="darkBg">
+		<script type='text/javascript'>
+		$(document).ready(function(){
+			$(document).snowfall({image:"./js/img/1.png", flakeCount:20, minSpeed:1, minSize:8, maxSize:15,});
+            $(document).snowfall({image:"./js/img/1.png", flakeCount:20, minSpeed:1, minSize:8, maxSize:15,});
+            $(document).snowfall({image:"./js/img/2.png", flakeCount:20, minSpeed:1, minSize:8, maxSize:15,});
+            $(document).snowfall({image:"./js/img/4.png", flakeCount:20, minSpeed:1, minSize:8, maxSize:15,});
+		});
+		</script>
+		<div id=waibu>
+		<div id=wushisuiyi>
+		<img src="img/50岁1.jpg" width=540; height=780;>
+		
+		</div>
+		<div id=wushisuisi>
+		<img src="img/50岁4.jpg" width=930; height=780;>
+		
+		
+		</div>
+		
+		</div>
+<div class="daohang">
+	<ul>
+		<li> <a href="index.html">首页</a> </li>
+		<li> <a href="file1.html">10岁的老妈</a> </li>
+		<li> <a href="file4.html">20岁的老妈</a> </li>
+		<li> <a href="indexdianyin.html">30,40岁的老妈</a> </li>
+		<li> <a href="file3.html">50岁的老妈</a> </li>
+	</ul>
+</div>
+		
+		
+		
+	</body>
+</html>
